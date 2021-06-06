@@ -1,2 +1,3 @@
+.pip-src/
 venv/
 db.sqlite3

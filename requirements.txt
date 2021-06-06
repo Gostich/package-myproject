@@ -1,1 +1,1 @@
--e git+https://github.com/Gostich/package-myapp.git@master#egg=myapp
+git+https://github.com/Gostich/package-myapp.git@master

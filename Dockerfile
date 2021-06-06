@@ -10,6 +10,7 @@ RUN mkdir -p /code
 WORKDIR /code
 
 COPY requirements.txt /usr/local/pip-requirements/
+ADD "https://github.com/Gostich/package-myapp.git" skipcache
 RUN pip3 install \
     --quiet \
     --no-cache \

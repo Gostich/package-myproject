@@ -1,0 +1,11 @@
+version: '3.4'
+services:
+  sandbox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: sandbox
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - .:/code

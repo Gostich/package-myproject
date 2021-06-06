@@ -12,6 +12,7 @@ WORKDIR /code
 COPY requirements.txt /usr/local/pip-requirements/
 RUN pip3 install \
     --quiet \
+    --no-cache \
     --no-binary :none: \
     -r /usr/local/pip-requirements/requirements.txt \
     --exists-action w \
